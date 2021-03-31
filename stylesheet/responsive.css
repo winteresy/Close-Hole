@@ -1,0 +1,520 @@
+@media only screen and (min-width: 1680px) and (max-width: 2100px) {
+  .second_block {
+    width: 81%;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1680px) {
+  .second_block {
+    width: 81.02%;
+  }
+  .phrase_inside_black-round {
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  .first_page_left {
+    height: 42.51%;
+  }
+  .first_page_right{
+    height: 42.51%;
+  }
+  .first_section {
+    height: 20.77%;
+  }
+  .second_block {
+    width: 81.08%;
+  }
+  .second_section {
+    height: 79.23%;
+  }
+  .fourth_block {
+    height: 20.77%;
+  }
+  .fifth_block {
+    height: 79.23%;
+  }
+  .seconds {
+    margin-top: 10%;
+    font-size: 36px;
+  }
+  .figures {
+    margin-top: 10%;
+    font-size: 36px;
+  }
+  .robot {
+    margin: 15% auto;
+  }
+  .phrase_inside_black-round {
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1280px) {
+  .ratio {
+    padding-bottom: 163.15%;
+  }
+  .first_page_left {
+    width: 66.04%;
+    height: 53.83%;
+  }
+  .first_page_right{
+    width: 33.96%;
+    height: 53.83%;
+  }
+  .first_section {
+    height: 26.87%;
+  }
+  .first_block {
+    width: 35.31%;
+  }
+  .second_block {
+    width: 64.8%;
+  }
+  .second_section {
+    height: 74.13%;
+  }
+  .fourth_block {
+    height: 26.87%;
+  }
+  .fifth_block {
+    height: 74.13%;
+  }
+  .third_section {
+    height: 20.4%;
+  }
+  .hole_1 {
+    height: 60.39%;
+  }
+  .hole_2 {
+    height: 65.89%;
+  }
+  .hole_3 {
+    height: 67.04%;
+  }
+  .hole_4 {
+    height: 55.17%;
+  }
+  .fourth_section {
+    height: 25.50%;
+  }
+  .phrase_inside_black-round {
+    font-size: 12px;
+  }
+  .robot_phrase {
+    padding-top: 10.36%;
+  }
+  .arrow_left {
+    margin-top: 52.82%;
+  }
+  .arrow_right {
+    margin-top: 52.82%;
+  }
+  .seconds {
+    margin-top: 10%;
+    font-size: 36px;
+  }
+  .figures {
+    margin-top: 10%;
+    font-size: 36px;
+  }
+  .logo {
+    width: 80.48%;
+    height: 81.77%;
+    margin-left: 4%;
+    margin-top: 10.36%;
+  }
+  .close_hole_phrase {
+    position: absolute;
+    height: 63px;
+    padding-top: 42.82%;
+    padding-left: 4%;
+  }
+  .robot {
+    margin: 20% auto;
+    width: 80.82%;
+    height: 75.59%;
+  }
+  .choose_hole_phrase {
+    font-size: 28px;
+  }
+  .first_round_group {
+    width: 70.32%;
+    height: 78.89%;
+    margin-top: 8.38%;
+    margin-left: 16.27%;
+  }
+  .second_round_group {
+    width: 72.32%;
+    height: 78.89%;
+    margin-top: 12.07%;
+    margin-left: 13.86%;
+  }
+  .black_round {
+    width: 50.81%;
+    height: 57.29%;
+    margin-top: 20%;
+    margin-left: 28.02%;
+  }
+  .line {
+    margin-top: 40.89%;
+    margin-left: 37%;
+  }
+  .phrase_inside_black-round {
+    margin-top: 40%;
+    margin-left: 39.6%;
+    width: 30.9%;
+    height: 102px;
+    font-size: 14px;
+  }
+  .start_stop_text {
+    margin-top: 5%;
+  }
+  .lines {
+    width: 6.38%;
+  }
+  .line_input {
+    width: 6.42%;
+  }
+  .line_velvet {
+    width: 1.43%;
+  }
+  .footer_phrase {
+    margin: 2.9% auto;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+  .ratio {
+    padding-bottom: 163.15%;
+  }
+  .first_page_left {
+    width: 66.04%;
+    height: 53.83%;
+  }
+  .first_page_right{
+    width: 33.96%;
+    height: 53.83%;
+  }
+  .first_section {
+    height: 26.87%;
+  }
+  .first_block {
+    width: 35.31%;
+  }
+  .second_block {
+    width: 64.8%;
+  }
+  .second_section {
+    height: 74.13%;
+  }
+  .fourth_block {
+    height: 26.87%;
+  }
+  .fifth_block {
+    height: 74.13%;
+  }
+  .third_section {
+    height: 20.4%;
+  }
+  .hole_1 {
+    height: 60.39%;
+  }
+  .hole_2 {
+    height: 65.89%;
+  }
+  .hole_3 {
+    height: 67.04%;
+  }
+  .hole_4 {
+    height: 55.17%;
+  }
+  .fourth_section {
+    height: 25.50%;
+  }
+  .robot_phrase {
+    padding-top: 10.36%;
+  }
+  .arrow_left {
+    margin-top: 52.82%;
+  }
+  .arrow_right {
+    margin-top: 52.82%;
+  }
+  .seconds {
+    margin-top: 10%;
+    font-size: 36px;
+  }
+  .figures {
+    margin-top: 10%;
+    font-size: 36px;
+  }
+  .logo {
+    width: 80.48%;
+    height: 81.77%;
+    margin-left: 4%;
+    margin-top: 10.36%;
+  }
+  .close_hole_phrase {
+    position: absolute;
+    height: 63px;
+    padding-top: 42.82%;
+    padding-left: 4%;
+  }
+  .robot {
+    margin: 20% auto;
+    width: 80.82%;
+    height: 75.59%;
+  }
+  .choose_hole_phrase {
+    font-size: 24px;
+  }
+  .first_round_group {
+    width: 70.32%;
+    height: 78.89%;
+    margin-top: 8.38%;
+    margin-left: 16.27%;
+  }
+  .second_round_group {
+    width: 72.32%;
+    height: 78.89%;
+    margin-top: 12.07%;
+    margin-left: 13.86%;
+  }
+  .black_round {
+    width: 50.81%;
+    height: 57.29%;
+    margin-top: 20%;
+    margin-left: 28.02%;
+  }
+  .line {
+    margin-top: 40.89%;
+    margin-left: 37%;
+  }
+  .phrase_inside_black-round {
+    margin-top: 40%;
+    margin-left: 39.6%;
+    width: 30.9%;
+    height: 102px;
+    font-size: 12px;
+  }
+  .start_stop_text {
+    margin-top: 5%;
+  }
+  .lines {
+    width: 6.38%;
+  }
+  .line_input {
+    width: 6.42%;
+  }
+  .line_velvet {
+    width: 1.43%;
+  }
+  .footer_phrase {
+    margin: 2.9% auto;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ratio {
+    padding-bottom: 163.15%;
+  }
+  .first_page_left {
+    width: 66.04%;
+    height: 53.83%;
+  }
+  .first_page_right{
+    width: 33.96%;
+    height: 53.83%;
+  }
+  .first_section {
+    height: 26.87%;
+  }
+  .first_block {
+    width: 35.31%;
+  }
+  .second_block {
+    width: 64.8%;
+  }
+  .second_section {
+    height: 74.13%;
+  }
+  .robot_phrase {
+    width: 90%;
+  }
+  .fourth_block {
+    height: 26.87%;
+  }
+  .fifth_block {
+    height: 74.13%;
+  }
+  .third_section {
+    height: 20.4%;
+  }
+  .hole_1 {
+    height: 60.39%;
+  }
+  .hole_2 {
+    height: 65.89%;
+  }
+  .hole_3 {
+    height: 67.04%;
+  }
+  .hole_4 {
+    height: 55.17%;
+  }
+  .fourth_section {
+    height: 25.50%;
+  }
+  .robot_phrase {
+    padding-top: 10.36%;
+  }
+  .arrow_left {
+    margin-top: 52.82%;
+  }
+  .arrow_right {
+    margin-top: 52.82%;
+  }
+  .pannel_text {
+    font-size: 18px;
+  }
+  .seconds {
+    margin-top: 10%;
+    font-size: 28px;
+  }
+  .figures {
+    margin-top: 10%;
+    font-size: 28px;
+  }
+  .logo {
+    width: 80.48%;
+    height: 81.77%;
+    margin-left: 4%;
+    margin-top: 10.36%;
+  }
+  .close_hole_phrase {
+    position: absolute;
+    height: 63px;
+    padding-top: 42.82%;
+    padding-left: 4%;
+  }
+  .robot {
+    margin: 20% auto;
+    width: 80.82%;
+    height: 75.59%;
+  }
+  .choose_hole_phrase {
+    font-size: 18px;
+  }
+  .first_round_group {
+    width: 70.32%;
+    height: 78.89%;
+    margin-top: 8.38%;
+    margin-left: 16.27%;
+  }
+  .second_round_group {
+    width: 72.32%;
+    height: 78.89%;
+    margin-top: 12.07%;
+    margin-left: 13.86%;
+  }
+  .black_round {
+    width: 50.81%;
+    height: 57.29%;
+    margin-top: 20%;
+    margin-left: 28.02%;
+  }
+  .line {
+    margin-top: 37.89%;
+    margin-left: 37%;
+  }
+  .phrase_inside_black-round {
+    margin-top: 37%;
+    margin-left: 39.6%;
+    width: 33.9%;
+    height: 102px;
+    font-size: 12px;
+  }
+  .start_stop_text {
+    margin-top: 6%;
+  }
+  .start {
+    font-size: 18px;
+  }
+  .stop {
+    font-size: 18px;
+  }
+  .lines {
+    width: 6.38%;
+  }
+  .line_input {
+    width: 6.42%;
+  }
+  .line_velvet {
+    width: 1.43%;
+  }
+  .footer_phrase {
+    margin: 2.9% auto;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ratio {
+      padding-bottom: 530.31%;
+  }
+  .first_page_left {
+    width: 100%;
+    height: 22%;
+  }
+  .first_page_right{
+    width: 100%;
+    height: 28.21%;
+  }
+  .first_section {
+    height: 18.97%;
+  }
+  .first_block {
+    width: 23.33%;
+  }
+  .second_block {
+    width: 76.80%;
+  }
+  .second_section {
+    height: 81.03%;
+  }
+  .third_block {
+    width: 100%;
+  }
+  .fourth_block {
+    height: 20.3%;
+  }
+  .fifth_block {
+    height: 79.7%;
+  }
+  .third_section {
+    height: 19.56%;
+  }
+  .fourth_section {
+    width: 100%;
+    height: 28.26%;
+  }
+  .sixth_block {
+    width: 100%;
+    height: 35.23%;
+  }
+  .seventh_block {
+    width: 100%;
+    height: 64.77%;
+  }
+  .footer {
+    margin-top: -2px;
+    height: 3.15%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+}
