@@ -12,10 +12,10 @@
     <link rel="icon" type="image/png" href="images/singular_3.png"/>
     <link rel="stylesheet" href="stylesheet/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <title>Hole</title>
     <script src="dynamic.js"></script>
     <script src="test.js"></script>
-   </script>
   </head>
   <body class="body">
     <div class="wrapper">
@@ -46,9 +46,14 @@
               </div>
             </section><!----><section class="first_page_right">
               <div class="fourth_block block">
-                <p class="robot_phrase">Привет!<br>Я – искусственный интеллект компании Hole</p>
-                <div class="arrow_left"></div>
-                <div class="arrow_right"></div>
+                <ul id="slides">
+                  <li class="slide showing robot_phrase">Привет!<br>Я – искусственный интеллект компании Hole</li>
+                  <li class="slide robot_phrase">На этом сайте вы можете попробовать закрыть чёрную дыру, используя различные эффекты</li>
+                  <li class="slide robot_phrase">Надеюсь, вам понравится наш космический симулятор и вы посетите выставку Hole</li>
+                </ul>
+                <!--<p class="robot_phrase">Привет!<br>Я – искусственный интеллект компании Hole</p>-->
+                <a href=""><div class="arrow_left" onclick="previousSlide()" id="previous"></div></a>
+                <a href=""><div class="arrow_right" onclick="nextSlide()" id="next"></div></a>
               </div><!----><div class="fifth_block block">
                 <div class="robot">
                   <div class="robot_body"></div>
@@ -56,7 +61,7 @@
                 </div>
               </div>
             </section>
-            <section class="third_section slider">
+            <section class="third_section">
               <h3 class="choose_hole_phrase">Выберите дыру, которую будете закрывать</h3>
               <a class="prev" onclick="minusSlide()"><div class="union_left"></div></a>
               <a class="next" onclick="plusSlide()"><div class="union_right"></div></a>

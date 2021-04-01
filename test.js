@@ -1,35 +1,26 @@
-/* Индекс слайда по умолчанию */
-var slideIndex = 1;
-showSlides(slideIndex);
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var next = document.getElementById('next');
+var previous = document.getElementById('previous');
 
-/* Функция увеличивает индекс на 1, показывает следующй слайд*/
-function plusSlide() {
-    showSlides(slideIndex += 1);
+
+function nextSlide() {
+    goToSlide(currentSlide+1);
 }
 
-/* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
-function minusSlide() {
-    showSlides(slideIndex -= 1);
+function previousSlide() {
+    goToSlide(currentSlide-1);
 }
 
-/* Устанавливает текущий слайд */
-function currentSlide(n) {
-    showSlides(slideIndex = n);
+function goToSlide(n) {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (n+slides.length)%slides.length;
+    slides[currentSlide].className = 'slide showing';
 }
 
-/* Основная функция слайдера */
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("hole");
-    if (n > slides.length) {
-      slideIndex = 1
-    }
-    if (n < 1) {
-        slideIndex = slides.length
-    }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-}
+next.onclick = function() {
+    nextSlide();
+};
+previous.onclick = function() {
+    previousSlide();
+};

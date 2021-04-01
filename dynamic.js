@@ -11,4 +11,8 @@ $(document).ready(function() {
   $(".hole_4").on("click", function(event) {
   $(".hole_background").css("background-image", "url(images/4hole.png)");
   });
+
+  $(".button-effects_1").on("click", function(event) {
+    
+  });
 });
