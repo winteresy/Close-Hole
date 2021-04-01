@@ -14,7 +14,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Hole</title>
     <script src="dynamic.js"></script>
-    <script src="test.js"></script>
   </head>
   <body class="body">
     <div class="wrapper">
@@ -62,12 +61,12 @@
             </section>
             <section class="third_section">
               <h3 class="choose_hole_phrase">Выберите дыру, которую будете закрывать</h3>
-              <a class="prev"><div class="union_left"></div></a>
-              <a class="next"><div class="union_right"></div></a>
+              <div class="union_left"></div>
+              <div class="union_right"></div>
               <div class="hole_1 hole"></div>
-              <div class="hole_2 hole"></div>
-              <div class="hole_3 hole"></div>
-              <div class="hole_4 hole"></div>
+              <div class="hole_2 hole_picture hole"></div>
+              <div class="hole_3 hole_picture hole"></div>
+              <div class="hole_4 hole_picture hole"></div>
             </section>
             <section class="fourth_section">
               <div class="sixth_block block">
@@ -82,7 +81,7 @@
                 <div class="button-effects button-effects_5"></div>
                 <div class="button-effects button-effects_6"></div>
                 <div id="counter_1" class="timer_block">
-                  <p id="buttonCountNumber_1" class="seconds">1</p>
+                  <p id="buttonCountNumber_1" class="seconds">5</p>
                   <div class="line_velvet"></div>
                   <div id="buttonCountPlus_1" value="+" class="plus plus_sec"></div>
                   <div id="buttonCountMinus_1" value="-" class="minus minus_sec"></div>
@@ -101,10 +100,10 @@
                 <div class="round round_5"></div>
                 <div class="round round_6"></div>
                 <div class="lines"></div>
-                <div class="start">
+                <div id="start" class="start">
                   <p class="start_stop_text">Запуск</p>
                 </div>
-                <div class="stop">
+                <div id="stop" class="stop">
                   <p class="start_stop_text">Стоп</p>
                 </div>
               </div><!----><div class="seventh_block block">

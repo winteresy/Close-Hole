@@ -736,7 +736,3 @@ body {
 .round_6:active {
   background-image: url(../images/round_click.svg);
 }
-
-.hole_picture {
-  display: none;
-}

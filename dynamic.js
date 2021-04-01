@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
   let hole = 2;
   $(".hole_1").on("click", function(event) {
@@ -221,11 +219,13 @@ $(document).ready(function() {
 
 
   let count_1 = document.getElementById("buttonCountNumber_1");
+  let counter_1 = 5;
 
   document.getElementById("buttonCountPlus_1").onclick = function() {
     let countPlus_1 = count_1.innerHTML;
     if(+countPlus_1 <= 4){
       count_1.innerHTML++;
+      counter_1 += 1;
       let countPlus_1 = count_1.innerHTML;
     }
   }
@@ -234,6 +234,7 @@ $(document).ready(function() {
     let countMinus_1 = count_1.innerHTML;
     if(+countMinus_1 >= 2){
       count_1.innerHTML--;
+      counter_1 -= 1;
       let countMinus_1 = count_1.innerHTML;
     }
   }
@@ -261,23 +262,214 @@ $(document).ready(function() {
 
 
   $(function () {
-    if (mask == 1) {
-      if (counter == 1) {
-        $(".hole_mask").css("background-image", "url(images/hole1.1.png)");
+    $(".minus").on("click", function(event) {
+      if (mask == 1) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole1.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole1.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole1.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole1.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole1.1.png)");
+        }
       }
-      else if (counter == 2) {
-        $(".hole_mask").css("background-image", "url(images/hole1.2.png)");
+      if (mask == 2) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole2.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole2.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole2.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole2.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole2.1.png)");
+        }
       }
-      else if (counter == 3) {
-        $(".hole_mask").css("background-image", "url(images/hole1.3.png)");
+      if (mask == 3) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole3.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole3.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole3.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole3.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole3.1.png)");
+        }
       }
-      else if (counter == 4) {
-        $(".hole_mask").css("background-image", "url(images/hole1.4.png)");
+      if (mask == 4) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole4.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole4.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole4.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole4.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole4.1.png)");
+        }
       }
-      else if (counter == 5) {
-        $(".hole_mask").css("background-image", "url(images/hole1.5.png)");
+      if (mask == 5) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole5.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole5.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole5.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole5.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole5.1.png)");
+        }
       }
-    }
+      if (mask == 6) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole6.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole6.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole6.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole6.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole6.1.png)");
+        }
+      }
+    });
+    $(".plus").on("click", function(event) {
+      if (mask == 1) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole1.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole1.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole1.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole1.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole1.1.png)");
+        }
+      }
+      if (mask == 2) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole2.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole2.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole2.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole2.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole2.1.png)");
+        }
+      }
+      if (mask == 3) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole3.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole3.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole3.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole3.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole3.1.png)");
+        }
+      }
+      if (mask == 4) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole4.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole4.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole4.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole4.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole4.1.png)");
+        }
+      }
+      if (mask == 5) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole5.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole5.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole5.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole5.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole5.1.png)");
+        }
+      }
+      if (mask == 6) {
+        if (counter == 1) {
+          $(".hole_mask").css("background-image", "url(images/hole6.5.png)");
+        }
+        if (counter == 2) {
+          $(".hole_mask").css("background-image", "url(images/hole6.4.png)");
+        }
+        if (counter == 3) {
+          $(".hole_mask").css("background-image", "url(images/hole6.3.png)");
+        }
+        if (counter == 4) {
+          $(".hole_mask").css("background-image", "url(images/hole6.2.png)");
+        }
+        if (counter == 5) {
+          $(".hole_mask").css("background-image", "url(images/hole6.1.png)");
+        }
+      }
+    });
   });
 
   $(function () {
@@ -324,42 +516,200 @@ $(document).ready(function() {
   $(function () {
   let count_1 = 0;
   let count_2 = 0;
-    $(".union_left").on("click", function(event) {
+    $(".union_right").on("click", function(event) {
       count_1 += 1;
       if (count_1 == 1) {
-        $(".slide_1").removeClass("showing");
-        $(".slide_2").addClass("showing");
+        $(".hole_1").addClass("hole_picture");
+        $(".hole_2").removeClass("hole_picture");
       }
       if (count_1 == 2) {
-        $(".slide_2").removeClass("showing");
-        $(".slide_1").removeClass("showing");
-        $(".slide_3").addClass("showing");
+        $(".hole_1").addClass("hole_picture");
+        $(".hole_3").removeClass("hole_picture");
+        $(".hole_2").addClass("hole_picture");
       }
       if (count_1 == 3) {
+        $(".hole_1").addClass("hole_picture");
+        $(".hole_4").removeClass("hole_picture");
+        $(".hole_3").addClass("hole_picture");
+        $(".hole_2").addClass("hole_picture");
+      }
+      if (count_1 == 4) {
         count_1 = 0;
-        $(".slide_3").removeClass("showing");
-        $(".slide_1").addClass("showing");
+        $(".hole_1").removeClass("hole_picture");
+        $(".hole_4").addClass("hole_picture");
+        $(".hole_3").addClass("hole_picture");
+        $(".hole_2").addClass("hole_picture");
       }
     });
-    $(".union_right").on("click", function(event) {
+    $(".union_left").on("click", function(event) {
       count_2 += 1;
       if (count_2 == 1) {
-        $(".slide_2").removeClass("showing");
-        $(".slide_3").removeClass("showing");
-        $(".slide_1").addClass("showing");
+        $(".hole_2").addClass("hole_picture");
+        $(".hole_1").removeClass("hole_picture");
       }
       if (count_2 == 2) {
-        $(".slide_1").removeClass("showing");
-        $(".slide_2").removeClass("showing");
-        $(".slide_3").addClass("showing");
+        $(".hole_1").addClass("hole_picture");
+        $(".hole_4").removeClass("hole_picture");
+        $(".hole_3").addClass("hole_picture");
+        $(".hole_2").addClass("hole_picture");
       }
       if (count_2 == 3) {
+        $(".hole_1").addClass("hole_picture");
+        $(".hole_4").addClass("hole_picture");
+        $(".hole_3").removeClass("hole_picture");
+        $(".hole_2").addClass("hole_picture");
+      }
+      if (count_2 == 4) {
         count_2 = 0;
-        $(".slide_1").removeClass("showing");
-        $(".slide_3").removeClass("showing");
-        $(".slide_2").addClass("showing");
+        $(".hole_1").addClass("hole_picture");
+        $(".hole_4").addClass("hole_picture");
+        $(".hole_3").addClass("hole_picture");
+        $(".hole_2").removeClass("hole_picture");
       }
     });
   });
+
+
+    let timer;
+    let x = counter_1;
+    $(function () {
+      $(".start").on("click", function(event) {
+        document.getElementById('buttonCountNumber_1').innerHTML = x;
+        x--;
+        counter -= 1;
+        countMask();
+        if (x<0){
+          clearTimeout(timer);
+        }
+        else {
+          timer = setTimeout(countdown, 1000);
+        }
+      });
+      $(function () {
+        $(".stop").on("click", function(event) {
+          clearTimeout(timer);
+        });
+      });
+    });
+    function countdown() {
+      document.getElementById('buttonCountNumber_1').innerHTML = x;
+      x--;
+      counter -= 1;
+      countMask();
+      if (x<0){
+        clearTimeout(timer);
+      }
+      if (x==0) {
+        $(".hole_mask").css("background-image", "url(images/hole0.jpg)");
+      }
+      else {
+        timer = setTimeout(countdown, 1000);
+      }
+    }
+
+    function countMask() {
+        if (mask == 1) {
+          if (counter == 1) {
+            $(".hole_mask").css("background-image", "url(images/hole1.5.png)");
+          }
+          if (counter == 2) {
+            $(".hole_mask").css("background-image", "url(images/hole1.4.png)");
+          }
+          if (counter == 3) {
+            $(".hole_mask").css("background-image", "url(images/hole1.3.png)");
+          }
+          if (counter == 4) {
+            $(".hole_mask").css("background-image", "url(images/hole1.2.png)");
+          }
+          if (counter == 5) {
+            $(".hole_mask").css("background-image", "url(images/hole1.1.png)");
+          }
+        }
+        if (mask == 2) {
+          if (counter == 1) {
+            $(".hole_mask").css("background-image", "url(images/hole2.5.png)");
+          }
+          if (counter == 2) {
+            $(".hole_mask").css("background-image", "url(images/hole2.4.png)");
+          }
+          if (counter == 3) {
+            $(".hole_mask").css("background-image", "url(images/hole2.3.png)");
+          }
+          if (counter == 4) {
+            $(".hole_mask").css("background-image", "url(images/hole2.2.png)");
+          }
+          if (counter == 5) {
+            $(".hole_mask").css("background-image", "url(images/hole2.1.png)");
+          }
+        }
+        if (mask == 3) {
+          if (counter == 1) {
+            $(".hole_mask").css("background-image", "url(images/hole3.5.png)");
+          }
+          if (counter == 2) {
+            $(".hole_mask").css("background-image", "url(images/hole3.4.png)");
+          }
+          if (counter == 3) {
+            $(".hole_mask").css("background-image", "url(images/hole3.3.png)");
+          }
+          if (counter == 4) {
+            $(".hole_mask").css("background-image", "url(images/hole3.2.png)");
+          }
+          if (counter == 5) {
+            $(".hole_mask").css("background-image", "url(images/hole3.1.png)");
+          }
+        }
+        if (mask == 4) {
+          if (counter == 1) {
+            $(".hole_mask").css("background-image", "url(images/hole4.5.png)");
+          }
+          if (counter == 2) {
+            $(".hole_mask").css("background-image", "url(images/hole4.4.png)");
+          }
+          if (counter == 3) {
+            $(".hole_mask").css("background-image", "url(images/hole4.3.png)");
+          }
+          if (counter == 4) {
+            $(".hole_mask").css("background-image", "url(images/hole4.2.png)");
+          }
+          if (counter == 5) {
+            $(".hole_mask").css("background-image", "url(images/hole4.1.png)");
+          }
+        }
+        if (mask == 5) {
+          if (counter == 1) {
+            $(".hole_mask").css("background-image", "url(images/hole5.5.png)");
+          }
+          if (counter == 2) {
+            $(".hole_mask").css("background-image", "url(images/hole5.4.png)");
+          }
+          if (counter == 3) {
+            $(".hole_mask").css("background-image", "url(images/hole5.3.png)");
+          }
+          if (counter == 4) {
+            $(".hole_mask").css("background-image", "url(images/hole5.2.png)");
+          }
+          if (counter == 5) {
+            $(".hole_mask").css("background-image", "url(images/hole5.1.png)");
+          }
+        }
+        if (mask == 6) {
+          if (counter == 1) {
+            $(".hole_mask").css("background-image", "url(images/hole6.5.png)");
+          }
+          if (counter == 2) {
+            $(".hole_mask").css("background-image", "url(images/hole6.4.png)");
+          }
+          if (counter == 3) {
+            $(".hole_mask").css("background-image", "url(images/hole6.3.png)");
+          }
+          if (counter == 4) {
+            $(".hole_mask").css("background-image", "url(images/hole6.2.png)");
+          }
+          if (counter == 5) {
+            $(".hole_mask").css("background-image", "url(images/hole6.1.png)");
+          }
+        }
+      }
 
 });
