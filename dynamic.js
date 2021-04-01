@@ -245,7 +245,7 @@ $(document).ready(function() {
     let countPlus_2 = count_2.innerHTML;
     if(+countPlus_2 <= 4){
       count_2.innerHTML++;
-      counter = counter + 1;
+      counter += 1;
       let countPlus_2 = count_2.innerHTML;
     }
   }
@@ -254,7 +254,7 @@ $(document).ready(function() {
     let countMinus_2 = count_2.innerHTML;
     if(+countMinus_2 >= 2){
       count_2.innerHTML--;
-      counter = counter - 1;
+      counter -= 1;
       let countMinus_2 = count_2.innerHTML;
     }
   }
@@ -265,20 +265,101 @@ $(document).ready(function() {
       if (counter == 1) {
         $(".hole_mask").css("background-image", "url(images/hole1.1.png)");
       }
-      if (counter == 2) {
+      else if (counter == 2) {
         $(".hole_mask").css("background-image", "url(images/hole1.2.png)");
       }
-      if (counter == 3) {
+      else if (counter == 3) {
         $(".hole_mask").css("background-image", "url(images/hole1.3.png)");
       }
-      if (counter == 4) {
+      else if (counter == 4) {
         $(".hole_mask").css("background-image", "url(images/hole1.4.png)");
       }
-      if (counter == 5) {
+      else if (counter == 5) {
         $(".hole_mask").css("background-image", "url(images/hole1.5.png)");
       }
     }
   });
 
+  $(function () {
+  let count_1 = 0;
+  let count_2 = 0;
+    $(".arrow_right").on("click", function(event) {
+      count_1 += 1;
+      if (count_1 == 1) {
+        $(".slide_1").removeClass("showing");
+        $(".slide_2").addClass("showing");
+      }
+      if (count_1 == 2) {
+        $(".slide_2").removeClass("showing");
+        $(".slide_1").removeClass("showing");
+        $(".slide_3").addClass("showing");
+      }
+      if (count_1 == 3) {
+        count_1 = 0;
+        $(".slide_3").removeClass("showing");
+        $(".slide_1").addClass("showing");
+      }
+    });
+    $(".arrow_left").on("click", function(event) {
+      count_2 += 1;
+      if (count_2 == 1) {
+        $(".slide_2").removeClass("showing");
+        $(".slide_3").removeClass("showing");
+        $(".slide_1").addClass("showing");
+      }
+      if (count_2 == 2) {
+        $(".slide_1").removeClass("showing");
+        $(".slide_2").removeClass("showing");
+        $(".slide_3").addClass("showing");
+      }
+      if (count_2 == 3) {
+        count_2 = 0;
+        $(".slide_1").removeClass("showing");
+        $(".slide_3").removeClass("showing");
+        $(".slide_2").addClass("showing");
+      }
+    });
+  });
+
+  $(function () {
+  let count_1 = 0;
+  let count_2 = 0;
+    $(".union_left").on("click", function(event) {
+      count_1 += 1;
+      if (count_1 == 1) {
+        $(".slide_1").removeClass("showing");
+        $(".slide_2").addClass("showing");
+      }
+      if (count_1 == 2) {
+        $(".slide_2").removeClass("showing");
+        $(".slide_1").removeClass("showing");
+        $(".slide_3").addClass("showing");
+      }
+      if (count_1 == 3) {
+        count_1 = 0;
+        $(".slide_3").removeClass("showing");
+        $(".slide_1").addClass("showing");
+      }
+    });
+    $(".union_right").on("click", function(event) {
+      count_2 += 1;
+      if (count_2 == 1) {
+        $(".slide_2").removeClass("showing");
+        $(".slide_3").removeClass("showing");
+        $(".slide_1").addClass("showing");
+      }
+      if (count_2 == 2) {
+        $(".slide_1").removeClass("showing");
+        $(".slide_2").removeClass("showing");
+        $(".slide_3").addClass("showing");
+      }
+      if (count_2 == 3) {
+        count_2 = 0;
+        $(".slide_1").removeClass("showing");
+        $(".slide_3").removeClass("showing");
+        $(".slide_2").addClass("showing");
+      }
+    });
+  });
 
 });
