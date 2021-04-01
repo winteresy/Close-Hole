@@ -736,3 +736,9 @@ body {
 .round_6:active {
   background-image: url(../images/round_click.svg);
 }
+.union_left:active {
+  background-image: url(../images/union_left_active.svg);
+}
+.union_right:active {
+  background-image: url(../images/union_right_active.svg);
+}
