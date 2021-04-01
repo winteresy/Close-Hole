@@ -395,7 +395,6 @@ body {
   font-size: 24px;
   line-height: 140%;
   color: #FFFFFF;
-  width: 160px;
 }
 .effects {
   margin-left: 5.49%;
@@ -556,42 +555,45 @@ body {
 }
 .lines {
   position: absolute;
-  width: 3.38%;
-  height: 76.76%;
+  width: 5.38%;
+  height: 70.76%;
   background-image: url(../images/lines.svg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 88.4%;
-  margin-top: 12.3%;
+  margin-top: 14.3%;
 }
 .round {
   position: absolute;
-  width: 77.55%;
+  width: 5.55%;
   height: 8.26%;
   background-image: url(../images/round.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 10%;
-  margin-top: 0%;
 }
-.input {
-  position: absolute;
-  height: 76.76%;
-  width: 5.98%;
+.round_1 {
   margin-left: 77.53%;
   margin-top: 11.94%;
-  border: 2px solid #5B4DFF;
-  box-sizing: border-box;
-  border-radius: 5px;
 }
-.line_input {
-  position: absolute;
-  width: 6.42%;
-  height: 100%;
-  background-image: url(../images/line_input.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 48%;
+.round_2 {
+  margin-left: 77.53%;
+  margin-top: 21.94%;
+}
+.round_3 {
+  margin-left: 77.53%;
+  margin-top: 31.94%;
+}
+.round_4 {
+  margin-left: 77.53%;
+  margin-top: 41.94%;
+}
+.round_5 {
+  margin-left: 77.53%;
+  margin-top: 51.94%;
+}
+.round_6 {
+  margin-left: 77.53%;
+  margin-top: 61.94%;
 }
 .seventh_block {
   width: 41.08%;
