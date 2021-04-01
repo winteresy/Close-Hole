@@ -3,8 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="Web-poster">
+    <meta property="og:url" content="winteresy.github.io">
+    <meta property="og:title" content="Hole">
+    <meta property="og:description" content="Учебный проект">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="images/singular_3.ico"/>
+    <link rel="icon" type="image/png" href="images/singular_3.png"/>
     <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Hole</title>
+    <script src="dynamic.js"></script>
+    <script src="test.js"></script>
+   </script>
   </head>
   <body class="body">
     <div class="wrapper">
@@ -45,8 +56,10 @@
                 </div>
               </div>
             </section>
-            <section class="third_section">
+            <section class="third_section slider">
               <h3 class="choose_hole_phrase">Выберите дыру, которую будете закрывать</h3>
+              <a class="prev" onclick="minusSlide()"><div class="union_left"></div></a>
+              <a class="next" onclick="plusSlide()"><div class="union_right"></div></a>
               <div class="hole_1 hole"></div>
               <div class="hole_2 hole"></div>
               <div class="hole_3 hole"></div>

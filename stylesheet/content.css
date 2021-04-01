@@ -378,6 +378,28 @@ body {
   margin-left: 1.96%;
   background-image: url(../images/singular_4.png);
 }
+.union_left {
+  position: absolute;
+  background-image: url(../images/union_left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  width: 7.5%;
+  height: 2%;
+  margin-left: 1.5%;
+  margin-top: 52%;
+}
+.union_right {
+  position: absolute;
+  background-image: url(../images/union_right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  width: 7.5%;
+  height: 2%;
+  margin-left: 88%;
+  margin-top: 52%;
+}
 .fourth_section {
   width: 100%;
   height: 30.05%;
@@ -634,4 +656,29 @@ body {
   font-style: normal;
   font-weight: 200;
   font-size: 24px;
+}
+.arrow_left:hover {
+  background-image: url(../images/Arrow_left_hover.svg);
+}
+.arrow_right:hover {
+  background-image: url(../images/Arrow_right_hover.svg);
+}
+.button-effects:hover {
+  background-image: url(../images/button_hover.svg);
+}
+.round:hover {
+  background-image: url(../images/round_hover.svg);
+}
+.plus:hover {
+  background-image: url(../images/plus_hover.svg);
+}
+.minus:hover {
+  background-image: url(../images/minus_hover.svg);
+}
+.stop:hover {
+  border: 3px solid #CBEE4C;
+}
+.start:hover {
+  border: 3px solid #CBEE4C;
+  background-color: #CBEE4C;
 }
